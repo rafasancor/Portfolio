@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Rafa Sancor</title>
+  <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <link rel="stylesheet" href="./src/css/mediaqueries.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo font-logo">
+        < sancor />
+      </a>
+      <div class="nav-links">
+        <a href="#about">Sobre mim</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+      </div>
+      <button class="mobile-menu" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h3>Hello World!</h3>
+          <h1>Eu sou o Rafael Sancor,</h1>
+
+          <div class="subtitle">
+            <span id="text"></span><span class="cursor">|</span>
+          </div>
+
+          <button class="animated-button" id="faleComigo">
+            <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+              </path>
+            </svg>
+            <span class="text">FALE COMIGO</span>
+            <span class="circle"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+          </button>
+
+        </div>
+        <div class="hero-image">
+          <img src="./src/img/me.jpeg" alt="Imagem de Rafael Sancor">
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about" class="about">
+      <div class="about-content">
+        <div class="about-image">
+          <img src="./src/img/me2.jpeg" alt="Sobre mim">
+        </div>
+        <div class="about-text">
+          <h2>Sobre Mim</h2>
+          <p>Sou um estudante de Análise e Desenvolvimento de Sistemas apaixonado por tecnologia, desenvolvimento web e
+            banco de dados. Sempre fui fascinado por dispositivos inteligentes e pelo impacto da tecnologia no mundo, o
+            que me levou a aprofundar meus conhecimentos em programação e estruturação de sistemas.</p>
+          <p>Minha trajetória profissional inclui experiência na indústria, onde desenvolvi habilidades de trabalho em
+            equipe, atenção aos detalhes e comprometimento com a entrega de resultados. Agora, busco oportunidades na
+            área de tecnologia para contribuir com soluções inovadoras e continuar evoluindo como desenvolvedor.</p>
+          <p>Seja bem-vindo ao meu portfólio! Aqui você encontrará meus projetos, aprendizados e minha jornada na
+            tecnologia.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Meus Projetos</h2>
+      <div class="projects-grid">
+
+        <a href="https://github.com/rafasancor/Automacao-Cadastro" target="_blank" class="project-card">
+          <h3>Automação de Cadastro</h3>
+          <div class="project-image">
+            <img src="./src/img/cadastro.jpeg" alt="Projeto 1">
+          </div>
+          <p>Automação com Python e PyAutoGUI para cadastrar produtos em um site. O script abre o navegador, faz login e
+            preenche um formulário automaticamente com dados de um arquivo CSV.</p>
+        </a>
+
+        <a href="https://github.com/rafasancor/FolhaDePagamento" target="_blank" class="project-card">
+          <h3>Lógica em linguagem C</h3>
+          <div class="project-image">
+            <img src="./src/img/folhadepagamento.jpeg" alt="Projeto 2">
+          </div>
+          <p>Sistema em C para cálculo de folha de pagamento, incluindo descontos de INSS, IR, FGTS, vale-transporte,
+            plano de saúde e salário-família.</p>
+        </a>
+
+        <a href="https://github.com/rafasancor/BancoDeDados-Biblioteca" target="_blank" class="project-card">
+          <h3>Biblioteca Pública</h3>
+          <div class="project-image">
+            <img src="./src/img/biblioteca.jpeg" alt="Projeto 3">
+          </div>
+          <p>Banco de dados MySQL para gerenciamento de uma Biblioteca Pública. Inclui tabelas para cadastro de membros,
+            livros, autores, categorias e empréstimos, além de relações entre tabelas e consultas SQL.</p>
+        </a>
+      </div>
+    </section>
+
+
+    <section class="technologies">
+      <h2>Tecnologias</h2>
+      <div class="tech-list">
+        <div class="tech-item">
+          <i class="fa-brands fa-html5"></i>
+          <span>HTML</span>
+        </div>
+        <div class="tech-item">
+          <i class="fa-brands fa-css3-alt"></i>
+          <span>CSS</span>
+        </div>
+        <div class="tech-item">
+          <i class="fa-brands fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="tech-item">
+          <i class="fa-solid fa-c"></i>
+          <span>C</span>
+        </div>
+        <div class="tech-item">
+          <i class="fa-solid fa-database"></i>
+          <span>SQL</span>
+        </div>
+        <div class="tech-item">
+          <i class="fa-solid fa-server"></i>
+          <span>MySQL</span>
+        </div>
+        <div class="tech-item">
+          <i class="fa-brands fa-python"></i>
+          <span>Python</span>
+        </div>
+        <div class="tech-item">
+          <i class="fa-solid fa-file-excel"></i>
+          <span>Excel</span>
+        </div>
+        <div class="tech-item">
+          <i class="fa-solid fa-table"></i>
+          <span>PowerBI</span>
+        </div>
+        <div class="tech-item">
+          <i class="fa-brands fa-figma"></i>
+          <span>Figma</span>
+        </div>
+        <div class="tech-item">
+          <i class="fa-brands fa-git"></i>
+          <span>Git</span>
+        </div>
+        <div class="tech-item">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-content">
+        <div class="contact-info">
+          <h2>Fale comigo!</h2>
+          <div class="contact-buttons">
+            <a href="mailto:rafaelsancor2003@hotmail.com" target="_blank" class="contact-button">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Email</span>
+            </a>
+            <a href="http://linkedin.com/in/rafael-sancor-dev" target="_blank" class="contact-button">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://www.instagram.com/rafasancor/" target="_blank" class="contact-button">
+              <i class="fa-brands fa-instagram"></i>
+              <span>Instagram</span>
+            </a>
+            <a href="https://github.com/rafasancor" target="_blank" class="contact-button">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-image">
+          <img src="./src/img/contactS.jpeg" alt="Contact Image">
+        </div>
+      </div>
+    </section>
+
+    <button id="Btn" class="Btn" onclick="voltarAoTopo()">
+      <svg height="1.2em" class="arrow" viewBox="0 0 512 512">
+        <path
+          d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z">
+        </path>
+      </svg>
+      <p class="btntext">VOLTAR AO TOPO</p>
+    </button>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-info">
+        <p>&copy; 2025 Sancor. Todos os direitos reservados.</p>
+      </div>
+      <div class="footer-social">
+        <a href="https://github.com/rafasancor" target="_blank" class="footer-social-link">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="http://linkedin.com/in/rafael-sancor-dev" target="_blank" class="footer-social-link">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.instagram.com/rafasancor/" target="_blank" class="footer-social-link">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
