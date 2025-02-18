@@ -1,6 +1,5 @@
 # Meu Portfólio
 
-## Descrição
 Este é o meu site de portfólio desenvolvido com **HTML, CSS e JavaScript**. O site apresenta minha trajetória profissional, habilidades, projetos e formas de contato.
 
 ## Tecnologias Utilizadas
